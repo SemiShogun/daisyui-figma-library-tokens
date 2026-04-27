@@ -21,5 +21,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SemiShogun/daisyui-figma-library-tokens.git"
   }
 }
