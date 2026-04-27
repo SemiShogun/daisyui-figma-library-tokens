@@ -1,0 +1,25 @@
+{
+  "name": "@semishogun/daisyui-figma-library-tokens",
+  "version": "0.1.0",
+  "description": "Custom daisyUI 5 theme synced from the official DaisyUI Figma Library files",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    "./theme.css": "./dist/theme.css",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "daisyui": "^5.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  }
+}

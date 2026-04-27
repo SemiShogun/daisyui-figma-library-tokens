@@ -1,0 +1,75 @@
+{
+  "Light": {
+    "color": {
+      "primary":           { "$value": "oklch(55% 0.3 240)",  "$type": "color" },
+      "primary-content":   { "$value": "oklch(98% 0.01 240)", "$type": "color" },
+      "secondary":         { "$value": "oklch(70% 0.25 200)", "$type": "color" },
+      "secondary-content": { "$value": "oklch(98% 0.01 200)", "$type": "color" },
+      "accent":            { "$value": "oklch(65% 0.25 160)", "$type": "color" },
+      "accent-content":    { "$value": "oklch(98% 0.01 160)", "$type": "color" },
+      "neutral":           { "$value": "oklch(50% 0.05 240)", "$type": "color" },
+      "neutral-content":   { "$value": "oklch(98% 0.01 240)", "$type": "color" },
+      "base-100":          { "$value": "oklch(98% 0.02 240)", "$type": "color" },
+      "base-200":          { "$value": "oklch(95% 0.03 240)", "$type": "color" },
+      "base-300":          { "$value": "oklch(92% 0.04 240)", "$type": "color" },
+      "base-content":      { "$value": "oklch(20% 0.05 240)", "$type": "color" },
+      "info":              { "$value": "oklch(70% 0.2 220)",  "$type": "color" },
+      "info-content":      { "$value": "oklch(98% 0.01 220)", "$type": "color" },
+      "success":           { "$value": "oklch(65% 0.25 140)", "$type": "color" },
+      "success-content":   { "$value": "oklch(98% 0.01 140)", "$type": "color" },
+      "warning":           { "$value": "oklch(80% 0.25 80)",  "$type": "color" },
+      "warning-content":   { "$value": "oklch(20% 0.05 80)",  "$type": "color" },
+      "error":             { "$value": "oklch(65% 0.3 25)",   "$type": "color" },
+      "error-content":     { "$value": "oklch(98% 0.01 25)",  "$type": "color" }
+    },
+    "radius": {
+      "selector": { "$value": "0.5rem",  "$type": "dimension" },
+      "field":    { "$value": "0.25rem", "$type": "dimension" },
+      "box":      { "$value": "0.5rem",  "$type": "dimension" }
+    },
+    "size": {
+      "selector": { "$value": "0.25rem", "$type": "dimension" },
+      "field":    { "$value": "0.25rem", "$type": "dimension" }
+    },
+    "border": { "$value": "1px", "$type": "dimension" },
+    "depth":  { "$value": "1",   "$type": "number" },
+    "noise":  { "$value": "0",   "$type": "number" }
+  },
+
+  "Dark": {
+    "color": {
+      "primary":           { "$value": "oklch(70% 0.3 240)",  "$type": "color" },
+      "primary-content":   { "$value": "oklch(15% 0.05 240)", "$type": "color" },
+      "secondary":         { "$value": "oklch(75% 0.25 200)", "$type": "color" },
+      "secondary-content": { "$value": "oklch(15% 0.05 200)", "$type": "color" },
+      "accent":            { "$value": "oklch(70% 0.25 160)", "$type": "color" },
+      "accent-content":    { "$value": "oklch(15% 0.05 160)", "$type": "color" },
+      "neutral":           { "$value": "oklch(40% 0.05 240)", "$type": "color" },
+      "neutral-content":   { "$value": "oklch(95% 0.01 240)", "$type": "color" },
+      "base-100":          { "$value": "oklch(20% 0.03 240)", "$type": "color" },
+      "base-200":          { "$value": "oklch(17% 0.03 240)", "$type": "color" },
+      "base-300":          { "$value": "oklch(14% 0.03 240)", "$type": "color" },
+      "base-content":      { "$value": "oklch(95% 0.02 240)", "$type": "color" },
+      "info":              { "$value": "oklch(75% 0.2 220)",  "$type": "color" },
+      "info-content":      { "$value": "oklch(15% 0.05 220)", "$type": "color" },
+      "success":           { "$value": "oklch(70% 0.25 140)", "$type": "color" },
+      "success-content":   { "$value": "oklch(15% 0.05 140)", "$type": "color" },
+      "warning":           { "$value": "oklch(85% 0.25 80)",  "$type": "color" },
+      "warning-content":   { "$value": "oklch(15% 0.05 80)",  "$type": "color" },
+      "error":             { "$value": "oklch(70% 0.3 25)",   "$type": "color" },
+      "error-content":     { "$value": "oklch(15% 0.05 25)",  "$type": "color" }
+    },
+    "radius": {
+      "selector": { "$value": "0.5rem",  "$type": "dimension" },
+      "field":    { "$value": "0.25rem", "$type": "dimension" },
+      "box":      { "$value": "0.5rem",  "$type": "dimension" }
+    },
+    "size": {
+      "selector": { "$value": "0.25rem", "$type": "dimension" },
+      "field":    { "$value": "0.25rem", "$type": "dimension" }
+    },
+    "border": { "$value": "1px", "$type": "dimension" },
+    "depth":  { "$value": "1",   "$type": "number" },
+    "noise":  { "$value": "0",   "$type": "number" }
+  }
+}
