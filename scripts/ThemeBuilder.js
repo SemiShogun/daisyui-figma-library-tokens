@@ -17,17 +17,15 @@ export class ThemeBuilder {
     }
 
     formatValue(v) {
-        const colorRegex = /^#[0-9a-f]{6}(ff)?$/i;
         if (typeof v === 'boolean') return v ? '1' : '0';
         if (typeof v === 'number') return `${v}px`;
-        if (typeof v === 'string' && colorRegex.test(v)) return this.cleanColor(v);
+        if (typeof v === 'string' && /^#[0-9a-f]{6}(ff)?$/i.test(v)) return this.cleanColor(v);
         return String(v); // pass-through for "150%", etc.
     }
 
     cleanColor(value) {
         if (typeof value !== 'string') return value;
-        const colorRegex = /^#[0-9a-f]{6}(ff)?$/i;
-        const m = colorRegex.exec(value);
+        const m = /^#([0-9a-f]{6})ff$/i.exec(value);
         return m ? `#${m[1]}` : value;
     }
 
