@@ -1,6 +1,5 @@
-/* Auto-generated from Figma export. Do not edit by hand. */
+/* Auto-generated from Figma export. Please do not edit. */
 /* Run `npm run build` after updating tokens/figma-export.json. */
-
 /* ============================================================ */
 /*  Tailwind base tokens                                         */
 /* ============================================================ */
@@ -8,10 +7,10 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Roboto Mono", ui-monospace, SFMono-Regular, monospace;
 
-  /* Spacing — 4px grid base unit */
+/* Spacing — 4px grid base unit */
   --spacing: 0.25rem;
 
-  /* Font sizes */
+/* Font sizes */
   --text-xs: 12px;
   --text-sm: 14px;
   --text-base: 16px;
@@ -26,7 +25,7 @@
   --text-8xl: 96px;
   --text-9xl: 128px;
 
-  /* Font weights */
+/* Font weights */
   --font-weight-normal: 400;
   --font-weight-bold: 700;
   --font-weight-black: 900;
@@ -37,7 +36,7 @@
   --font-weight-extrabold: 800;
   --font-weight-light: 300;
 
-  /* Line heights */
+/* Line heights */
   --leading-3: 12px;
   --leading-4: 16px;
   --leading-5: 20px;
@@ -50,7 +49,6 @@
   --leading-none: 100%;
   --leading-11: 48px;
 }
-
 /* ============================================================ */
 /*  daisyUI themes                                               */
 /* ============================================================ */
@@ -59,26 +57,26 @@
   default: true;
   color-scheme: light;
 
-  --color-primary: #4129d4;
-  --color-primary-content: #dfe7ff;
-  --color-secondary: #f42f98;
-  --color-secondary-content: #f9e4f0;
-  --color-accent: #00d2bb;
-  --color-accent-content: #084d49;
-  --color-neutral: #09090b;
-  --color-neutral-content: #e4e4e7;
-  --color-base-100: #ffffff;
-  --color-base-200: #f8f8f8;
-  --color-base-300: #eeeeee;
-  --color-base-content: #17171a;
-  --color-info: #00b9fe;
-  --color-info-content: #042e49;
-  --color-success: #00d290;
-  --color-success-content: #004c39;
-  --color-warning: #fcb700;
-  --color-warning-content: #793205;
-  --color-error: #ff627d;
-  --color-error-content: #4d0218;
+  --color-primary: #undefined;
+  --color-primary-content: #undefined;
+  --color-secondary: #undefined;
+  --color-secondary-content: #undefined;
+  --color-accent: #undefined;
+  --color-accent-content: #undefined;
+  --color-neutral: #undefined;
+  --color-neutral-content: #undefined;
+  --color-base-100: #undefined;
+  --color-base-200: #undefined;
+  --color-base-300: #undefined;
+  --color-base-content: #undefined;
+  --color-info: #undefined;
+  --color-info-content: #undefined;
+  --color-success: #undefined;
+  --color-success-content: #undefined;
+  --color-warning: #undefined;
+  --color-warning-content: #undefined;
+  --color-error: #undefined;
+  --color-error-content: #undefined;
 
   --radius-field: 4px;
   --radius-selector: 8px;
@@ -91,26 +89,26 @@
   prefersdark: true;
   color-scheme: dark;
 
-  --color-primary: #605dff;
-  --color-primary-content: #edf1fe;
-  --color-secondary: #f42f98;
-  --color-secondary-content: #f9e4f0;
-  --color-accent: #00d2bb;
-  --color-accent-content: #084d49;
-  --color-neutral: #09090b;
-  --color-neutral-content: #e4e4e7;
-  --color-base-100: #1d232a;
-  --color-base-200: #191e24;
-  --color-base-300: #15191e;
-  --color-base-content: #ecf9ff;
-  --color-info: #00b9fe;
-  --color-info-content: #042e49;
-  --color-success: #00d290;
-  --color-success-content: #004c39;
-  --color-warning: #fcb700;
-  --color-warning-content: #793205;
-  --color-error: #ff627d;
-  --color-error-content: #4d0218;
+  --color-primary: #undefined;
+  --color-primary-content: #undefined;
+  --color-secondary: #undefined;
+  --color-secondary-content: #undefined;
+  --color-accent: #undefined;
+  --color-accent-content: #undefined;
+  --color-neutral: #undefined;
+  --color-neutral-content: #undefined;
+  --color-base-100: #undefined;
+  --color-base-200: #undefined;
+  --color-base-300: #undefined;
+  --color-base-content: #undefined;
+  --color-info: #undefined;
+  --color-info-content: #undefined;
+  --color-success: #undefined;
+  --color-success-content: #undefined;
+  --color-warning: #undefined;
+  --color-warning-content: #undefined;
+  --color-error: #undefined;
+  --color-error-content: #undefined;
 
   --radius-field: 8px;
   --radius-selector: 8px;
@@ -122,26 +120,26 @@
   name: "corporate";
   color-scheme: light;
 
-  --color-primary: #0082ce;
-  --color-primary-content: #ffffff;
-  --color-secondary: #61738d;
-  --color-secondary-content: #ffffff;
-  --color-accent: #009689;
-  --color-accent-content: #ffffff;
-  --color-neutral: #000000;
-  --color-neutral-content: #ffffff;
-  --color-base-100: #ffffff;
-  --color-base-200: #e8e8e8;
-  --color-base-300: #d1d1d1;
-  --color-base-content: #181a2a;
-  --color-info: #0090b5;
-  --color-info-content: #ffffff;
-  --color-success: #00a43b;
-  --color-success-content: #ffffff;
-  --color-warning: #fdc700;
-  --color-warning-content: #000000;
-  --color-error: #ff6266;
-  --color-error-content: #000000;
+  --color-primary: #undefined;
+  --color-primary-content: #undefined;
+  --color-secondary: #undefined;
+  --color-secondary-content: #undefined;
+  --color-accent: #undefined;
+  --color-accent-content: #undefined;
+  --color-neutral: #undefined;
+  --color-neutral-content: #undefined;
+  --color-base-100: #undefined;
+  --color-base-200: #undefined;
+  --color-base-300: #undefined;
+  --color-base-content: #undefined;
+  --color-info: #undefined;
+  --color-info-content: #undefined;
+  --color-success: #undefined;
+  --color-success-content: #undefined;
+  --color-warning: #undefined;
+  --color-warning-content: #undefined;
+  --color-error: #undefined;
+  --color-error-content: #undefined;
 
   --radius-field: 4px;
   --radius-selector: 8px;
@@ -153,43 +151,42 @@
   name: "night";
   color-scheme: dark;
 
-  --color-primary: #3abdf7;
-  --color-primary-content: #010d15;
-  --color-secondary: #818cf8;
-  --color-secondary-content: #060715;
-  --color-accent: #f471b5;
-  --color-accent-content: #14040c;
-  --color-neutral: #1e293b;
-  --color-neutral-content: #cdd0d4;
-  --color-base-100: #0f172a;
-  --color-base-200: #0c1425;
-  --color-base-300: #0a1120;
-  --color-base-content: #c9cbd0;
-  --color-info: #0ca5e9;
-  --color-info-content: #000000;
-  --color-success: #2fd4bf;
-  --color-success-content: #01100d;
-  --color-warning: #f4bf51;
-  --color-warning-content: #140d02;
-  --color-error: #fb7085;
-  --color-error-content: #150406;
+  --color-primary: #undefined;
+  --color-primary-content: #undefined;
+  --color-secondary: #undefined;
+  --color-secondary-content: #undefined;
+  --color-accent: #undefined;
+  --color-accent-content: #undefined;
+  --color-neutral: #undefined;
+  --color-neutral-content: #undefined;
+  --color-base-100: #undefined;
+  --color-base-200: #undefined;
+  --color-base-300: #undefined;
+  --color-base-content: #undefined;
+  --color-info: #undefined;
+  --color-info-content: #undefined;
+  --color-success: #undefined;
+  --color-success-content: #undefined;
+  --color-warning: #undefined;
+  --color-warning-content: #undefined;
+  --color-error: #undefined;
+  --color-error-content: #undefined;
 
   --radius-field: 4px;
   --radius-selector: 8px;
   --radius-box: 16px;
   --border: 1px;
 }
-
 /* ============================================================ */
 /*  Global vars + custom design tokens                           */
 /* ============================================================ */
 :root {
 
-  /* size — mode "4" */
+/* size — mode "4" */
   --size-field: 4px;
   --size-selector: 4px;
 
-  /* depth — mode "true" */
+/* depth — mode "true" */
   --depth: 1;
   --foreground-shadow: 1;
   --foreground-no-shadow: 0;
@@ -200,38 +197,38 @@
   --btn-drop-shadow-02-blur: 2px;
   --btn-drop-shadow-02-spread: -2px;
 
-  /* noise — mode "false" */
+/* noise — mode "false" */
   --noise: 0;
 
-  /* list */
+/* Component Collection - list */
   --list-padding-horizontal: 8px;
   --list-padding-vertical: 16px;
   --list-gap-horizontal: 16px;
 
-  /* navbar */
+/* Component Collection - navbar */
   --navbar-padding: 8px;
-  --navbar-bg: #ffffff;
+  --navbar-bg: #undefined;
   --navbar-min-height: 64px;
 
-  /* footer */
+/* Component Collection - footer */
   --footer-padding-md-xy-: 40px;
   --footer-padding-sm-y-: 16px;
-  --footer-footer-default-color: #f8f8f8;
+  --footer-footer-default-color: #undefined;
   --footer-gap: 40px;
 
-  /* modal */
-  --modal-backrgound: #ffffff;
+/* Component Collection - modal */
+  --modal-backrgound: #undefined;
   --modal-radius: 16px;
   --modal-padding-around: 24px;
   --modal-gap-content: 16px;
 
-  /* stat */
+/* Component Collection - stat */
   --stat-padding-y: 16px;
   --stat-gap: 16px;
   --stat-padding-x: 24px;
 
-  /* card */
-  --card-backrgound: #ffffff;
+/* Component Collection - card */
+  --card-backrgound: #undefined;
   --card-gap: 8px;
   --card-padding-xs: 8px;
   --card-padding-sm: 16px;
@@ -239,29 +236,29 @@
   --card-padding-lg: 32px;
   --card-padding-xl: 40px;
 
-  /* fieldset-labels */
+/* Component Collection - fieldset-labels */
   --component-fieldset-font-size: 12px;
   --component-fieldset-padding-fieldset-label: 6px;
   --component-fieldset-padding-legend: 8px;
   --component-labels-font-size-xs: 11px;
-  --component-fieldset-container-background: #f8f8f8;
-  --component-fieldset-container-border: #eeeeee;
+  --component-fieldset-container-background: #undefined;
+  --component-fieldset-container-border: #undefined;
   --component-fieldset-container-padding: 16px;
   --component-fieldset-container-radius: 16px;
   --component-labels-font-size-sm: 12px;
   --component-labels-font-size-md: 14px;
   --component-labels-font-size-lg: 18px;
   --component-labels-font-size-xl: 22px;
-  --component-fieldset-legend-color: #17171a;
+  --component-fieldset-legend-color: #undefined;
 
-  /* utilities */
+/* Component Collection - utilities */
   --daisy-shadow-state-focus-offset: 3px;
   --daisy-shadow-state-focus-shadow: 5px;
 
-  /* device */
+/* Component Collection - device */
   --safe-area: 16px;
 
-  /* component-font-size */
+/* Component Collection - component-font-size */
   --daisy-typography-fields-font-size-xs: 11px;
   --daisy-typography-fields-font-size-sm: 12px;
   --daisy-typography-fields-font-size-md: 14px;

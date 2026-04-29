@@ -1,6 +1,6 @@
 {
   "name": "@semishogun/daisyui-figma-library-tokens",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Custom daisyUI 5 theme synced from the official DaisyUI Figma Library files",
   "type": "module",
   "files": [

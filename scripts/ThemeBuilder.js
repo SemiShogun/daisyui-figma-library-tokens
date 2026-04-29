@@ -4,14 +4,14 @@ export class ThemeBuilder {
 
     constructor(data) {
         this.data = data;
-        this.data.theme = this.data.theme || {};
+        this.data.theme = data.theme || {};
     }
 
     // ---------------------------------------------------------------------------
     // Helpers
     // ---------------------------------------------------------------------------
 
-    createTitle(title) {
+    createTitle(lines, title) {
         lines.push('');
         lines.push(`/* ${title} */`);
     }
@@ -37,7 +37,7 @@ export class ThemeBuilder {
             'theme', 'tailwind-spacing', 'tailwind-typography',
             'size', 'depth', 'noise', ...COMPONENT_COLLECTIONS,
         ]);
-        for (const collName of Object.keys(data)) {
+        for (const collName of Object.keys(this.data)) {
             if (known.has(collName)) continue;
             if (SKIPPED_COLLECTIONS.has(collName)) {
                 console.log(`\u2139  Skipping "${collName}" by design (see header comment in build.mjs).`);
@@ -52,6 +52,7 @@ export class ThemeBuilder {
 
     buildTailwindTheme() {
         const lines = ['@theme {'];
+
         // Fonts (All themes use the same font)
         const aTheme = this.data.theme && Object.values(this.data.theme)[0];
         if (aTheme?.['main-font-family-primary']) {
@@ -63,7 +64,7 @@ export class ThemeBuilder {
 
         // Spacing — values are 4px grid, so a single base var covers Tailwind's p-1, p-2, etc.
         if (this.data['tailwind-spacing']) {
-            this.createTitle('Spacing — 4px grid base unit');
+            this.createTitle(lines, 'Spacing — 4px grid base unit');
             lines.push('  --spacing: 0.25rem;');
         }
 
@@ -84,15 +85,15 @@ export class ThemeBuilder {
                 }
             }
             if (sizes.length) {
-                this.createTitle('Font sizes');
+                this.createTitle(lines, 'Font sizes');
                 for (const [n, v] of sizes) lines.push(`  --text-${n}: ${this.formatValue(v)};`);
             }
             if (weights.length) {
-                this.createTitle('Font weights');
+                this.createTitle(lines, 'Font weights');
                 for (const [n, v] of weights) lines.push(`  --font-weight-${n}: ${v};`);
             }
             if (leadings.length) {
-                this.createTitle('Line heights');
+                this.createTitle(lines, 'Line heights');
                 for (const [n, v] of leadings) lines.push(`  --leading-${n}: ${this.formatValue(v)};`);
             }
         }
@@ -144,7 +145,7 @@ export class ThemeBuilder {
         const sizeMode = MODE_SELECTION.size;
         if (this.data.size?.[sizeMode]) {
             const base = parseFloat(sizeMode.replace('-', '.'));
-            this.createTitle(`size — mode "${sizeMode}"`);
+            this.createTitle(lines, `size — mode "${sizeMode}"`);
             lines.push(`  --size-field: ${base}px;`);
             lines.push(`  --size-selector: ${base}px;`);
         }
@@ -153,18 +154,18 @@ export class ThemeBuilder {
         const depthMode = MODE_SELECTION.depth;
         const depth = this.data.depth?.[depthMode];
         if (depth) {
-            this.createTitle(`depth — mode "${depthMode}"`)
+            this.createTitle(lines, `depth — mode "${depthMode}"`);
             lines.push(`  --depth: ${depth.depth ? 1 : 0};`);
             for (const [k, v] of Object.entries(depth)) {
                 if (k === 'depth') continue;
-                lines.push(`  --${k}: ${formatValue(v)};`);
+                lines.push(`  --${k}: ${this.formatValue(v)};`);
             }
         }
 
         // noise
         const noiseMode = MODE_SELECTION.noise;
         if (this.data.noise?.[noiseMode]) {
-            this.createTitle('noise — mode "${noiseMode}')
+            this.createTitle(lines, `noise — mode "${noiseMode}"`);
             lines.push(`  --noise: ${this.data.noise[noiseMode].noise ? 1 : 0};`);
         }
 
@@ -176,7 +177,7 @@ export class ThemeBuilder {
             const tokens = coll[modeKey];
             if (!tokens) continue;
 
-            this.createTitle(`Component Collection - ${name}`)
+            this.createTitle(lines, `Component Collection - ${name}`);
             for (const [k, v] of Object.entries(tokens)) {
                 lines.push(`  --${k}: ${this.formatValue(v)};`);
             }

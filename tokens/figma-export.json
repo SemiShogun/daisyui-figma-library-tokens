@@ -41,7 +41,7 @@
 	},
 	"theme": {
 		"light": {
-			"main-color-primary-primary": "#4129d4",
+			"main-color-primary-primary": "#75b7ea",
 			"main-color-primary-content": "#dfe7ff",
 			"main-color-secondary-secondary": "#f42f98",
 			"main-color-secondary-content": "#f9e4f0",
@@ -70,7 +70,7 @@
 			"main-border-width-border": 1
 		},
 		"dark": {
-			"main-color-primary-primary": "#605dff",
+			"main-color-primary-primary": "#75b7ea",
 			"main-color-primary-content": "#edf1fe",
 			"main-color-secondary-secondary": "#f42f98",
 			"main-color-secondary-content": "#f9e4f0",
