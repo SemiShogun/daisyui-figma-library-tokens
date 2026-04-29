@@ -34,7 +34,7 @@ async function main() {
   const data = JSON.parse(await readFile(INPUT, 'utf8'));
   const themeBuilder = new ThemeBuilder(data);
 
-  themeBuilder.report();
+  themeBuilder.reportSkips();
 
   const stringOutput = [
     '/* Auto-generated from Figma export. Please do not edit. */',

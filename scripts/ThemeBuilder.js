@@ -29,7 +29,7 @@ export class ThemeBuilder {
         return m ? `#${m[1]}` : value;
     }
 
-    report() {
+    reportSkips() {
         // Report on what we're processing vs skipping
         const known = new Set([
             'theme', 'tailwind-spacing', 'tailwind-typography',
@@ -38,9 +38,9 @@ export class ThemeBuilder {
         for (const collName of Object.keys(this.data)) {
             if (known.has(collName)) continue;
             if (SKIPPED_COLLECTIONS.has(collName)) {
-                console.log(`\u2139  Skipping "${collName}" by design (see header comment in build.mjs).`);
+                console.log(`\uFE15  Skipping "${collName}" by design (see header comment in build.mjs).`);
             } else {
-                console.warn(`\u26a0  Unknown collection "${collName}" — not emitted. Add a handler to build.mjs.`);
+                console.warn(`\u003F  Unknown collection "${collName}" — not emitted. Add a handler to build.mjs.`);
             }
         }
     }
