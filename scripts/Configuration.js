@@ -1,10 +1,19 @@
 // ---------------------------------------------------------------------------
 // Configuration
 // ---------------------------------------------------------------------------
+
+/**
+ * MODE_SELECTION
+ * 
+ *        Attributes        |               Description               |               Values
+ * Size                     | Base px for fields & selectors          | '3' | '4' | '4-5' | '5'
+ * Depth                    | Drop shadows on/off                     | 'true' | 'false'
+ * Noise                    | Noise texture on/off                    | 'true' | 'false'
+ */
 export const MODE_SELECTION = {
-    size: '4',     // '3' | '4' | '4-5' | '5'    base px for fields & selectors
-    depth: 'true',  // 'true' | 'false'           drop shadows on/off
-    noise: 'false', // 'true' | 'false'           noise texture on/off
+    size: '4',
+    depth: 'true',
+    noise: 'false',
 };
 
 export const THEME_META = {
@@ -46,11 +55,23 @@ export const THEME_DIM_MAP = {
 };
 
 export const COMPONENT_COLLECTIONS = [
-    'list', 'navbar', 'footer', 'modal', 'stat', 'card',
-    'fieldset-labels', 'utilities', 'device', 'component-font-size',
+    'list', 
+    'navbar', 
+    'footer', 
+    'modal', 
+    'stat', 
+    'card',
+    'fieldset-labels', 
+    'utilities', 
+    'device', 
+    'component-font-size',
 ];
 
 export const SKIPPED_COLLECTIONS = new Set([
-    'themes-alias', 'border', 'radius',
-    'join', 'join-direction', 'square-apply',
+    'themes-alias', 
+    'border', 
+    'radius',
+    'join', 
+    'join-direction', 
+    'square-apply',
 ]);

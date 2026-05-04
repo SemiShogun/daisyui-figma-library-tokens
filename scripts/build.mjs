@@ -18,7 +18,7 @@
  *                    These standalone collections are multi-mode pickers
  *                    (no-radius, round-circle, etc.) — wire them up as
  *                    runtime toggles if needed.
- *   join, join-direction, square-apply — state-based, not flat tokens.
+ *   join, join-direction, square-apply, state-based, not flat tokens.
  *
  * Configure mode selections in MODE_SELECTION below.
  */

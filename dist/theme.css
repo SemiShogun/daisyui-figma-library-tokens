@@ -7,10 +7,10 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "Roboto Mono", ui-monospace, SFMono-Regular, monospace;
 
-/* Spacing — 4px grid base unit */
+  /* Spacing — 4px grid base unit */
   --spacing: 0.25rem;
 
-/* Font sizes */
+  /* Font sizes */
   --text-xs: 12px;
   --text-sm: 14px;
   --text-base: 16px;
@@ -25,7 +25,7 @@
   --text-8xl: 96px;
   --text-9xl: 128px;
 
-/* Font weights */
+  /* Font weights */
   --font-weight-normal: 400;
   --font-weight-bold: 700;
   --font-weight-black: 900;
@@ -36,7 +36,7 @@
   --font-weight-extrabold: 800;
   --font-weight-light: 300;
 
-/* Line heights */
+  /* Line heights */
   --leading-3: 12px;
   --leading-4: 16px;
   --leading-5: 20px;
@@ -57,7 +57,7 @@
   default: true;
   color-scheme: light;
 
-  --color-primary: #75b7ea;
+  --color-primary: #71ea00;
   --color-primary-content: #dfe7ff;
   --color-secondary: #f42f98;
   --color-secondary-content: #f9e4f0;
@@ -89,7 +89,7 @@
   prefersdark: true;
   color-scheme: dark;
 
-  --color-primary: #75b7ea;
+  --color-primary: #1df32f;
   --color-primary-content: #edf1fe;
   --color-secondary: #f42f98;
   --color-secondary-content: #f9e4f0;
@@ -182,11 +182,11 @@
 /* ============================================================ */
 :root {
 
-/* size — mode "4" */
+  /* size — mode "4" */
   --size-field: 4px;
   --size-selector: 4px;
 
-/* depth — mode "true" */
+  /* depth — mode "true" */
   --depth: 1;
   --foreground-shadow: 1;
   --foreground-no-shadow: 0;
@@ -197,37 +197,37 @@
   --btn-drop-shadow-02-blur: 2px;
   --btn-drop-shadow-02-spread: -2px;
 
-/* noise — mode "false" */
+  /* noise — mode "false" */
   --noise: 0;
 
-/* Component Collection - list */
+  /* Component Collection - list */
   --list-padding-horizontal: 8px;
   --list-padding-vertical: 16px;
   --list-gap-horizontal: 16px;
 
-/* Component Collection - navbar */
+  /* Component Collection - navbar */
   --navbar-padding: 8px;
   --navbar-bg: #ffffff;
   --navbar-min-height: 64px;
 
-/* Component Collection - footer */
+  /* Component Collection - footer */
   --footer-padding-md-xy-: 40px;
   --footer-padding-sm-y-: 16px;
   --footer-footer-default-color: #f8f8f8;
   --footer-gap: 40px;
 
-/* Component Collection - modal */
+  /* Component Collection - modal */
   --modal-backrgound: #ffffff;
   --modal-radius: 16px;
   --modal-padding-around: 24px;
   --modal-gap-content: 16px;
 
-/* Component Collection - stat */
+  /* Component Collection - stat */
   --stat-padding-y: 16px;
   --stat-gap: 16px;
   --stat-padding-x: 24px;
 
-/* Component Collection - card */
+  /* Component Collection - card */
   --card-backrgound: #ffffff;
   --card-gap: 8px;
   --card-padding-xs: 8px;
@@ -236,7 +236,7 @@
   --card-padding-lg: 32px;
   --card-padding-xl: 40px;
 
-/* Component Collection - fieldset-labels */
+  /* Component Collection - fieldset-labels */
   --component-fieldset-font-size: 12px;
   --component-fieldset-padding-fieldset-label: 6px;
   --component-fieldset-padding-legend: 8px;
@@ -251,14 +251,14 @@
   --component-labels-font-size-xl: 22px;
   --component-fieldset-legend-color: #17171a;
 
-/* Component Collection - utilities */
+  /* Component Collection - utilities */
   --daisy-shadow-state-focus-offset: 3px;
   --daisy-shadow-state-focus-shadow: 5px;
 
-/* Component Collection - device */
+  /* Component Collection - device */
   --safe-area: 16px;
 
-/* Component Collection - component-font-size */
+  /* Component Collection - component-font-size */
   --daisy-typography-fields-font-size-xs: 11px;
   --daisy-typography-fields-font-size-sm: 12px;
   --daisy-typography-fields-font-size-md: 14px;
